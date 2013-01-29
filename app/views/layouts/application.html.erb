@@ -1,14 +1,77 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-  <title>CheffGb</title>
+  <title>Crie o Pr??o GB</title>
   <%= stylesheet_link_tag    "bootstrap", :media => "all" %>
   <%= javascript_include_tag "bootstrap" %>
   <%= csrf_meta_tags %>
+   <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+	margin: 0 auto;
+	max-width: 700px;
+	background-image: url(<%= image_path 'bg2.png' %>);
+	border-radius: 10px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+	margin: 30px 0;
+	text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+	  
+	  #main { width: 500px; ; background-image: url(<%= image_path 'bg.png' %>); text-align: center;} 
+#logo { background-image: url(<%= image_path 'logo.png' %>); width:251px; height:251px; margin: auto;	}
+#area1 { text-align:center ; margin-bottom: 10px;}
+#area1>h3 { color: #fff; text-shadow: 2px -2px #000; line-height: 20px;}
+#area2 { height: 300px;}
+    </style>
 </head>
 <body>
+<div class="container-narrow">
 
-<%= yield %>
+      <div class="masthead">
+       <div id="logo"></div>
+	   
+       <%= yield %>
+	   
+      </div>
+      <div class="footer">
+        <p>Planejamento, Criação e Execução
+       </p>
+      <%= link_to image_tag("studioslogo.png", alt: "StudiosMedia"), 'http://#' %> &nbsp; &nbsp; &nbsp; &nbsp;<%= link_to image_tag("sgslogo.png", alt: "StudiosMedia"), 'http://#' %></div>
+
+    </div> <!-- /container -->
+
 
 </body>
 </html>
+
+
+
+
+    

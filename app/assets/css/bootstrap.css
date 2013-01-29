@@ -1,3 +1,11 @@
+/* PERSONALIZADO */
+#main { width: 500px; ; background-image: url(/img/bg.jpg); text-align: center;} 
+#logo { background-image:	url(../template app/img/logo2.png); width:251px; height:251px; margin-right: 20%;	}
+#area1 { text-align:center ; margin-bottom: 10px;}
+#area1>h3 { color: #fff; text-shadow: 2px -2px #000; line-height: 20px;}
+#area2 { height: 300px;}
+
+masthead{ margin: 0 auto; }
 /*!
  * Bootstrap v2.2.2
  *
@@ -222,12 +230,13 @@ textarea {
 }
 
 body {
-  margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  color: #333333;
-  background-color: #ffffff;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+	background-color: #000000;
+	font-weight: bold;
 }
 
 a {
@@ -1005,7 +1014,7 @@ pre code {
 }
 
 form {
-  margin: 0 0 20px;
+	margin: 0 0 0px;
 }
 
 fieldset {
@@ -1865,11 +1874,35 @@ input.search-query {
 .form-search .input-append,
 .form-inline .input-append,
 .form-horizontal .input-append {
-  display: inline-block;
+	display: inline-block;
+
+
+
+
+
+
+
+
+
+
   *display: inline;
-  margin-bottom: 0;
-  vertical-align: middle;
+	margin-bottom: 0;
+	vertical-align: middle;
+
+
+
+
+
+
+
+
+
+
   *zoom: 1;
+	height: 35px;
+	font-size: 21px;
+	font-weight: bold;
+	color: #CCC;
 }
 
 .form-search .hide,
@@ -1945,7 +1978,8 @@ legend + .control-group {
 .form-horizontal .controls {
   *display: inline-block;
   *padding-left: 20px;
-  margin-left: 180px;
+	margin-left: 0px;
+
   *margin-left: 0;
 }
 
@@ -3154,12 +3188,12 @@ button.close {
   *margin-left: .3em;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
+  color: ;
   text-align: center;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
   cursor: pointer;
-  background-color: #f5f5f5;
+  background-color: #C30;
   *background-color: #e6e6e6;
   background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
@@ -6037,3 +6071,34 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
+/* PERSONALIZADO */
+h3 {
+	color: #FFF;
+	text-shadow: #000 1px 2px;
+	font-stretch: ultra-condensed;
+}
+
+h4 { color: #000; font-size:29px; font-stretch: extra-condensed;} 
+
+
+#howto { padding: 10px 10px 10px 10px; margin-bottom: 20px;width: auto; height: auto; margin-left: 10px; margin-right: 10px; background-color:#FFF; border-radius: 10px; /* Fallback for web browsers that doesn't support RGBa */
+background: rgb(255, 255, 255);
+/* RGBa with 0.6 opacity */
+background: rgba(255, 255, 255, 0.6) 
+}
+#txt { opacity: 1.0; position:inherit; }
+
+h5 { font-weight:100; }
+.footer {
+	background-color: #333;
+	color: #999;
+	font-size: 10px;
+	text-align: center;
+	line-height: 5px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+#formulario { margin: auto; }
