@@ -1879,12 +1879,6 @@ input.search-query {
 
 
 
-
-
-
-
-
-
   *display: inline;
 	margin-bottom: 0;
 	vertical-align: middle;
@@ -1892,17 +1886,8 @@ input.search-query {
 
 
 
-
-
-
-
-
-
   *zoom: 1;
-	height: 35px;
-	font-size: 21px;
-	font-weight: bold;
-	color: #CCC;
+	height: 40px;
 }
 
 .form-search .hide,

@@ -11,19 +11,32 @@
     </div>
   <% end %>
 
-  <div class="field">
+		<div id="formulario">
+		<form class="form-horizontal">
+ <div class="control-group">
+  <div class="controls">
     <%= f.label :nome %><br />
     <%= f.text_field :nome %>
   </div>
-  <div class="field">
+    </div>
+ <div class="control-group">
+  <div class="controls">
     <%= f.label :email %><br />
     <%= f.text_field :email %>
   </div>
-  <div class="field">
+    </div>
+<div class="control-group">
+    <div class="controls">
     <%= f.label :receita %><br />
     <%= f.text_area :receita %>
-  </div>
-  <div class="actions">
+</div>
+    </div>
+ <div class="control-group">
+    <div class="controls">
     <%= f.submit "Enviar", :class => 'btn btn-large btn-primary' %>
+    </div>
+  </div>
+  </form>
   </div>
 <% end %>
+
