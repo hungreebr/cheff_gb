@@ -6081,4 +6081,11 @@ h5 { font-weight:100; }
 }
 #formulario { margin: auto; }
 
+/* PERSONALIZADO */
+#main { width: 500px;  background-image: url(/img/bg.jpg); text-align: center;} 
+#logo { background-image:	url(/img/logo2.png); width:251px; height:251px; margin-right: 20%;	}
+#area1 { text-align:center ; margin-bottom: 10px;}
+#area1>h3 { color: #FFF; text-shadow: 2px -2px #000; line-height: 20px;}
+#area2 { height: 300px;}
 
+masthead{ margin: 0 auto; }
