@@ -1,3 +1,47 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+	margin: 0 auto;
+	max-width: 700px;
+	background-image: url(<%= image_path 'bg2.png' %>);
+	border-radius: 10px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+	margin: 30px 0;
+	text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+	  
+	  #main { width: 500px; ; background-image: url(<%= image_path 'bg.png' %>); text-align: center;} 
+#logo { background-image: url(<%= image_path 'logo.png' %>); width:251px; height:251px; margin: auto;	}
+#area1 { text-align:center ; margin-bottom: 10px;}
+#area1>h3 { color: #fff; text-shadow: 2px -2px #000; line-height: 20px;}
+#area2 { height: 300px;}
