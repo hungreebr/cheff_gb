@@ -1,5 +1,5 @@
 /* PERSONALIZADO */
-#main { width: 500px; ; background-image: url(/img/bg.jpg); text-align: center;} 
+#main { width: 500px;  background-image: url(/img/bg.jpg); text-align: center;} 
 #logo { background-image:	url(../template app/img/logo2.png); width:251px; height:251px; margin-right: 20%;	}
 #area1 { text-align:center ; margin-bottom: 10px;}
 #area1>h3 { color: #fff; text-shadow: 2px -2px #000; line-height: 20px;}
