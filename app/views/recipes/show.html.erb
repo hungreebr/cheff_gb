@@ -1,5 +1,7 @@
 <p id="notice"><%= notice %></p>
 
+        <div id="howto">
+        <div id="txt">
 <p>
   <b>Nome:</b>
   <%= @recipe.nome %>
@@ -14,7 +16,8 @@
   <b>Receita:</b>
   <%= @recipe.receita %>
 </p>
-
+</div>
+</div>
 <%= link_to 'Editar', edit_recipe_path(@recipe) , :class =>"btn btn-large btn-success"  %>
 <%= link_to 'Voltar', static_pages_home_path , :class =>"btn btn-large btn-success"  %>
 

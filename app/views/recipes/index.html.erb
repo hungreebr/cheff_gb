@@ -1,4 +1,6 @@
-<h1>Listing recipes</h1>
+<div id="howto">
+<div id="txt">
+<h1>Listagem de Receitas</h1>
 
 <table>
   <tr>
@@ -15,9 +17,8 @@
     <td><%= recipe.nome %></td>
     <td><%= recipe.email %></td>
     <td><%= recipe.receita %></td>
-    <td><%= link_to 'Show', recipe %></td>
+    <td><%= link_to 'Exibir', recipe %></td>
     <td><%= link_to 'Editar', edit_recipe_path(recipe) %></td>
-    <td><%= link_to 'Destroy', recipe, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
@@ -25,3 +26,6 @@
 <br />
 
 <%= link_to 'New Recipe', new_recipe_path %>
+
+</div>
+</div>
