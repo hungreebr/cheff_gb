@@ -41,10 +41,11 @@ class RecipesController < ApplicationController
   # POST /recipes.json
   def create
     @recipe = Recipe.new(params[:recipe])
+	@homepage = static_pages_home_path
 
     respond_to do |format|
       if @recipe.save
-        format.html { redirect_to @recipe, notice: 'Recipe was successfully created.' }
+        format.html { redirect_to @recipe, notice: 'Receita enviada com sucesso!' }
         format.json { render json: @recipe, status: :created, location: @recipe }
       else
         format.html { render action: "new" }
